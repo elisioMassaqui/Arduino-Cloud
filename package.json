@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@arduino/arduino-iot-client": "^2.0.0",
+    "axios": "^1.7.2"
+  }
+}
