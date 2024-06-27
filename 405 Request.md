@@ -1,0 +1,5 @@
+O erro "Request failed with status code 405" indica que o método HTTP utilizado na requisição não é permitido para o endpoint específico da API do Arduino Cloud. O código de status 405 geralmente significa "Method Not Allowed", ou seja, o método HTTP utilizado (neste caso, PUT) não é suportado pelo endpoint para a rota específica que você está tentando acessar.
+
+Para resolver esse problema, você precisa verificar a documentação da API do Arduino Cloud para garantir que está utilizando o método HTTP correto para atualizar um dispositivo. Alguns endpoints podem exigir métodos diferentes para diferentes operações, como POST para criar, PUT para atualizar, DELETE para excluir, etc.
+
+Vamos ajustar o exemplo para usar o método HTTP correto conforme especificado na documentação da API do Arduino Cloud. Vou verificar a documentação e retornar com uma solução correta.
