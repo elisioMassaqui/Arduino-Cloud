@@ -1,5 +1,7 @@
 ## Tipos --fqbn para Arduino CLI
 
+O parâmetro --fqbn significa "Fully Qualified Board Name". Em português, poderia ser traduzido como "Nome Completo da Placa". Este parâmetro é usado no Arduino CLI para especificar completamente o tipo de placa Arduino para a qual você está compilando ou fazendo o upload de um sketch. Ele inclui informações detalhadas sobre a plataforma, arquitetura e o modelo específico da placa que está sendo utilizada.
+
 ### Placas Arduino AVR
 
 - **Arduino Uno:** `arduino:avr:uno`

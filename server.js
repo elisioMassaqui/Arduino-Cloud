@@ -5,7 +5,7 @@ const path = require('path');
 const arduinoCliPath = path.join(__dirname, 'arduino-cli');
 
 // Envolve o caminho em aspas duplas para lidar com espaços
-const command = `"${arduinoCliPath}" board listall`;
+const command = `"${arduinoCliPath}" board details -b arduino:avr:nano`;
 
 cmd.run(command, (err, data, stderr) => {
     if (err) {
